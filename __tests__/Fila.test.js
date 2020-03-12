@@ -11,7 +11,7 @@ test("Instanciacao", () => {
 });
 test("twoqueue", () => {
   f.enqueue(1);
-  f.twoEnqueue();
+  f.enqueue(2);
 });
 // test("Adicionar um elemento", () => {
 // 	f.enqueue(5);
